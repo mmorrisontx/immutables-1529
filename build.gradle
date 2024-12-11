@@ -1,0 +1,12 @@
+plugins {
+  id 'java'
+}
+
+repositories {
+  mavenCentral()
+}
+
+dependencies {
+  implementation project(':inner')
+  annotationProcessor 'org.immutables:value:2.10.1'
+}

@@ -1,0 +1,2 @@
+class Outer extends Inner {
+}
